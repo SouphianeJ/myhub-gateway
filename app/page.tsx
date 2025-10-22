@@ -10,6 +10,12 @@ const projects = [
   },
 
 {
+    name: 'SeedPortfolio ',
+    url: 'https://seed-portfolio-seven.vercel.app/admin/projects',
+    description: 'seed Portfolio Db.',
+    color: '#152CD6',
+  },
+  {
     name: 'To Do ',
     url: 'https://todozz-chi.vercel.app/',
     description: 'to dos.',
@@ -19,7 +25,7 @@ const projects = [
     name: 'Prompt Gallery',
     url: 'https://prompt-shop.vercel.app/',
     description: 'A collection of useful prompts.',
-    color: '#FFD700',
+    color: '#9F00FF',
   },
   {
     name: 'Cmd sheet Cheat',
@@ -31,7 +37,7 @@ const projects = [
     name: 'Get repo code',
     url: 'https://getrepocode.vercel.app/',
     description: 'Export Github repo code.',
-    color: '#9F00FF',
+    color: '#D61545',
   },
 ];
 
