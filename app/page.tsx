@@ -1,15 +1,13 @@
 import Link from 'next/link';
 
 const projects = [
-
-{
+  {
     name: 'Code Builder',
     url: 'https://code-builder-git-massrework-souphianejs-projects.vercel.app',
     description: 'A tool for building code snippets.',
     color: '#64FFDA',
   },
-
-{
+  {
     name: 'SeedPortfolio ',
     url: 'https://seed-portfolio-seven.vercel.app/admin/projects',
     description: 'seed Portfolio Db.',
@@ -39,13 +37,18 @@ const projects = [
     description: 'Export Github repo code.',
     color: '#D61545',
   },
-{
+  {
     name: 'Extract DB docs',
     url: 'https://extract-db-collections-v1.vercel.app/',
     description: 'Export DB collections and docs',
     color: '#F4A60B',
   },
-    
+  {
+    name: 'Shared Clipboard',
+    url: 'https://shared-clipboard-perso.vercel.app/',
+    description: 'Clipboard texte perso synchronise entre appareils.',
+    color: '#BD4F2A',
+  },
 ];
 
 export default function Home() {
@@ -55,7 +58,10 @@ export default function Home() {
       <div className="gallery">
         {projects.map((project) => (
           <Link href={project.url} key={project.name} className="project-card">
-            <div className="project-color" style={{ backgroundColor: project.color }} />
+            <div
+              className="project-color"
+              style={{ backgroundColor: project.color }}
+            />
             <div className="project-details">
               <h2>{project.name}</h2>
               <p>{project.description}</p>
