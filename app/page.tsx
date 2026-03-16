@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 const projects = [
   {
-    name: 'Code Builder',
-    url: 'https://code-builder-git-massrework-souphianejs-projects.vercel.app',
-    description: 'A tool for building code snippets.',
-    color: '#64FFDA',
+    name: 'Shared Clipboard',
+    url: 'https://shared-clipboard-perso.vercel.app/',
+    description: 'Clipboard texte perso synchronise entre appareils.',
+    color: '#BD4F2A',
   },
   {
     name: 'SeedPortfolio ',
@@ -44,11 +44,12 @@ const projects = [
     color: '#F4A60B',
   },
   {
-    name: 'Shared Clipboard',
-    url: 'https://shared-clipboard-perso.vercel.app/',
-    description: 'Clipboard texte perso synchronise entre appareils.',
-    color: '#BD4F2A',
+    name: 'Code Builder',
+    url: 'https://code-builder-git-massrework-souphianejs-projects.vercel.app',
+    description: 'A tool for building code snippets.',
+    color: '#64FFDA',
   },
+  
 ];
 
 export default function Home() {
