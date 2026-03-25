@@ -49,6 +49,12 @@ const projects = [
     description: 'A tool for building code snippets.',
     color: '#64FFDA',
   },
+  {
+    name: 'Mongo Backups Dashboard',
+    url: 'https://my-mongo-backups-dashboard.vercel.app/',
+    description: 'Dashboard for MongoDB backup monitoring.',
+    color: '#2BB673',
+  },
   
 ];
 
